@@ -29,12 +29,12 @@
 
 
 
+
 // TOOLS
 
     // NOMOR ACAK
     function no_acak($min,$max){
-        $no_acak = rand($min,$max);
-        echo $no_acak;
+        $no_acak = rand($min,$max)
     }
 
     // Tanggal
@@ -42,6 +42,5 @@
         date_default_timezone_set("Asia/Jakarta");
         global $tanggal;
         $tanggal = date("$format");
-        echo $tanggal;
     }
 ?>
